@@ -8,6 +8,7 @@ This lab consists of three primary virtual machines (VMs): CentOS, Debian, and K
 
 ### CentOS
 The CentOS machine is the only one with access to the internet. It is essentially working as a router by forwarding all traffic to the other machines.
+
   __Services__
 - DHCP Server
 - DNS Server
@@ -15,6 +16,7 @@ The CentOS machine is the only one with access to the internet. It is essentiall
 
 ### Debian
 I have never used Debian before, so I am still learning a lot about this one, with that being said, it is hosting a few services.
+
   __Services__
 - Web Server
 - Media Server
@@ -22,6 +24,7 @@ I have never used Debian before, so I am still learning a lot about this one, wi
 
 ### Kali
 My goal is to work at a SOC company, or anything related to Cyber Security, so using Kali is fun for testing out tools and trying new things.
+
   __Services__
 - Penetration Testing Tools
 - Vulnerability Scanner
