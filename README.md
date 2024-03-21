@@ -6,6 +6,7 @@ This lab consists of three primary virtual machines (VMs): CentOS, Debian, and K
 ![Current Virtual Lab](VirtualLab.png)
 
 ## Machine Specific Details 
+Below are some details on the VMs I currently have running. For more details check out my [Event Log](Services_Learned)
 
 ### CentOS
 The CentOS machine is the only one with access to the internet. It is essentially working as a router by forwarding all traffic to the other machines.
