@@ -1,1 +1,12 @@
-# Services Learned
+Services Learned:
+  This is more of a personal document for noting important services and commands I have learned when working on my home lab.
+
+- nmcli: Command-line tool for controlling NetworkManager
+  - sudo con mod/up 'network' ipv4.addresses <IP> ipv4.method auto/manual 
+    - Can manually configure your IP, or have your DHCP server auto setup. 
+
+- Fail2Ban: Set of server and client programs to limit brute force authentication attempts
+
+- Yum: Updator, similar to apt to update, upgrade, and install programs
+
+
