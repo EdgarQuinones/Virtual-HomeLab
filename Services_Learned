@@ -1,6 +1,8 @@
 Services Learned:
   This is more of a personal document for noting important services and commands I have learned when working on my home lab.
 
+March 21: 
+
 - nmcli: Command-line tool for controlling NetworkManager
   - sudo con mod/up 'network' ipv4.addresses <IP> ipv4.method auto/manual 
     - Can manually configure your IP, or have your DHCP server auto setup. 
@@ -17,3 +19,4 @@ Services Learned:
       - ExecStart=/usr/sbin/dhcpd -f -cf /etc/dhcp/dhcpd.conf -user dhcpd -group dhcpd --no-pid <Interface>
 
 Make sure you auto-connect and enable and save everything... For somereason I thought I saved and had everything working but after restarting, both of my IPs were changed. 
+
