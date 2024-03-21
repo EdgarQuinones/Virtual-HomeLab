@@ -5,6 +5,7 @@ This document contains my current journey of having a Virtual Homelab. I try to 
   - sudo con mod/up 'network' ipv4.addresses <IP> ipv4.method auto/manual 
     - Can manually configure your IP, or have your DHCP server auto setup. 
 ### Fail2Ban: Set of server and client programs to limit brute force authentication attempts
+- I added this as for another layer of security for my CentOS machine
 ### Yum: Updator, similar to apt to update, upgrade, and install programs
 ### DHCP Server
 I managed to get the DHCP Server working!! Now my 2 other machines had their IPs configured automatically.
