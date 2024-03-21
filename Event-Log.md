@@ -15,7 +15,7 @@ I managed to get the DHCP Server working!! Now my 2 other machines had their IPs
       - ExecStart=/usr/sbin/dhcpd -f -cf /etc/dhcp/dhcpd.conf -user dhcpd -group dhcpd --no-pid <Interface>
 
 ## Event Log
-I am recording any problems I face for future reference, and for saving memories.
+I am recording any events, good or bad, I face for future reference, and for memories.
 | Time  | Events                                         | Response Action                                           | Status      | Notes                                                                                     |
 |-------|--------------------------------------------------|-----------------------------------------------------------|-------------|-------------------------------------------------------------------------------------------| 
 | 3/21, 00:15 | Problem: Restarted the CentOS Machine, and all ips were gone. | Re-entered all commands needed to setup both external and internal IP.  | Resolved | I need to make sure to enable services, and have auto-connect turned on so they automacticlly configure.  |
