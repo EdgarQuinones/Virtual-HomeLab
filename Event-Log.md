@@ -7,7 +7,7 @@ This document contains my current journey of having a Virtual Homelab. I try to 
 ### Fail2Ban: Set of server and client programs to limit brute force authentication attempts
 ### Yum: Updator, similar to apt to update, upgrade, and install programs
 ### DHCP Server
-  - I managed to get the DHCP Server working!! Now my 2 other machines had their IPs configured automatically.
+I managed to get the DHCP Server working!! Now my 2 other machines had their IPs configured automatically.
   - I had 2 Network Intefaces, but I wanted to only to listen on 1, so I used this command.
     - First had to make a cp of the dhcpd file and edit the ExecStart line to add the interface I wanted to be listed on. 
       - sudo cp /usr/lib/systemd/system/dhcpd.service /etc/systemd/system/dhcpd.service
