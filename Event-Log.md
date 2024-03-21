@@ -22,8 +22,8 @@ Make sure you auto-connect and enable and save everything... For somereason I th
 
 ### Event Log
 I am recording any problems I face for future reference, and for saving memories.
-| Time  | Incident                                         | Response Action                                           | Status      | Notes                                                                                     |
-|-------|--------------------------------------------------|-----------------------------------------------------------|-------------|-------------------------------------------------------------------------------------------|
-| 00:32 | Restarted the CentOS Machine, and all ips were gone. | Re-entered all commands needed to setup both external and internal IP.  | Resolved | I need to make sure to enable services, and have auto connect on things so they automacticlly configure.  |
-| 1:30  | Network file for Kali machine #2 is missing.     | Edgar looked for it, but could not find it. Looking into backing it up. | In Progress | Might have been the red team who deleted it, could be in the system.                      |
-| 4:00  | Red team is sending system-wide messages         | Alex looked for any backdoors or users they are logged in as | No Solution | Certainly a red team attack. Was never able to find where they were coming from, continued for the next hour until the competition ended. |
+| Time  | Events                                         | Response Action                                           | Status      | Notes                                                                                     |
+|-------|--------------------------------------------------|-----------------------------------------------------------|-------------|-------------------------------------------------------------------------------------------| 
+| 3/21, 00:15 | Restarted the CentOS Machine, and all ips were gone. | Re-entered all commands needed to setup both external and internal IP.  | Resolved | I need to make sure to enable services, and have auto-connect turned on so they automacticlly configure.  |
+| 1:30  | Debian IP was not configuring to the DHCP's specified IP. | Changed the network adaptor from NAT to internal network | Resolved | I need to remember when I first create VMs they start connected to the internet with NAT. |
+| 1:37  | All 3 machines have their networks configured from the custom DHCP server, and they can communicate with each other. | Will start looking into more services to add to the machines | Update | Today was day 1 of setting up my own Virtual Homelab, it has been very exciting and I am looking forward to the many more things I will try out.
