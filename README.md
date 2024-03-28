@@ -4,7 +4,7 @@ I've always wanted to make a HomeLab, but finding and affording physical devices
 ## Current Set Up
 This lab consists of three primary virtual machines (VMs): CentOS, Debian, and Kali Linux, each tailored for specific roles within our network architecture. The CentOS VM acts as the central hub and router, providing both local network connectivity to the Debian and Kali VMs and managing external internet access via its NAT-configured network adapter. The Debian VM is set up for the development and testing of software projects, while the Kali Linux VM is dedicated to security testing and penetration exercises. 
 
-![Current Virtual Lab](Virtual-Homelab-3-21.png)
+![Current Virtual Lab](Images/Virtual-Homelab-3-21.png)
 
 ## Machine Specific Details 
 Below are some details on the VMs I currently have running. For more details check out my [Event Log](Services_Learned)
