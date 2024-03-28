@@ -18,6 +18,14 @@ The CentOS machine is the only one with access to the internet. It is essentiall
 
 ### Debian
 I have never used Debian before, so I am still learning a lot about this one, with that being said, it soon will be hosting a few services.
+__Services__
+- Database
+
+### Ubuntu Server
+I plan to use Ubuntu for managing a variety of services 
+__Services__
+- DNS
+- Web Server
 
 ### Kali
 My goal is to work at a SOC company, or anything related to Cyber Security, so using Kali is fun for testing out tools and trying new things.
