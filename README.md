@@ -19,7 +19,7 @@ The CentOS machine is the only one with access to the internet. It is essentiall
 ### Debian
 I have never used Debian before, so I am still learning a lot about this one, with that being said, it soon will be hosting a few services.
 __Services__
-- Database (not created)
+- Database (in progress)
 
 ### Ubuntu Server
 I plan to use Ubuntu to manage a variety of services 
