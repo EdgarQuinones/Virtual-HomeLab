@@ -24,7 +24,7 @@ __Services__
 ### Ubuntu Server
 I plan to use Ubuntu to manage a variety of services 
 __Services__
-- DNS (in progress)
+- DNS (online)
 - Web Server (online)
 
 ### Kali
