@@ -7,7 +7,7 @@ This lab consists of 4 virtual machines (VMs): CentOS, Debian, Ubuntu, and Kali 
 ![Current Virtual Lab](Images/Virtual-Homelab-3-21.png)
 
 ## Machine Specific Details 
-Below are some details on the VMs I currently have running. For more details check out my [Event Log](Services_Learned)
+Below are some details on the VMs I currently have running. For more details check out my [Event Log](Event-Log.md)
 
 ### CentOS
 The CentOS machine is the only one with access to the internet. It is essentially working as a router by forwarding all traffic to the other machines.
